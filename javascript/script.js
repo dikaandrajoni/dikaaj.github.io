@@ -52,3 +52,8 @@ Iya.addEventListener("click", function () {
         Iya.remove();
     }
 });
+
+ function setHalfVolume() {
+        var myAudio = document.getElementById("audio");
+        myAudio.volume = 0.1;
+    }
